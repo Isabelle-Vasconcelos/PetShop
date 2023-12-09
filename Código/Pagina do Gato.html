@@ -1,0 +1,323 @@
+<!doctype html>
+<HTML>
+
+<HEAD>
+    <meta charset="UTF-8" />
+    <TITLE>Pagina Gatos</TITLE>
+
+    <script type="text/javascript">
+
+        alert("Clique em cima de cada item para realizar sua compra 🚚");
+
+        var x = 0;
+        var imagem = new Array();
+        imagem[0] = "racao.png";
+        imagem[1] = "Img2.png";
+        imagem[2] = "Img3.png";
+
+        function mudar_banner() {
+            document.getElementById("banner").src = imagem[x];
+            x++;
+            if (x == 3) { //aqui compara x com a quantidade total de imagens que tem
+                x = 0;
+            }
+        }
+        setInterval('mudar_banner()', 2000);
+
+        fotoum = new Image()
+        fotoum.src = "b3.png"
+        fotoumsombra= new Image()
+        fotoumsombra.src = "b3 sombra.png "
+
+        fotodois = new Image()
+        fotodois.src = "b1.png"
+        fotodoissombra = new Image()
+        fotodoissombra.src = "b1 sombra.png"
+
+        fototres = new Image()
+        fototres.src = "b2.png"
+        fototressombra = new Image()
+        fototressombra.src = "b2 sombra.png"
+
+        fotoquatro = new Image()
+        fotoquatro.src = "adote.png"
+        fotoquatrosombra = new Image()
+        fotoquatrosombra.src = "adote sombra.png"
+    </script>
+</HEAD>
+
+<body BGCOLOR="#5CE1E6">
+    <CENTER>
+        <IMG SRC="logotipo dog e cat.jpg" alt="image description" ALIGN="CENTER" alt="Image" HEIGHT="700" WIDTH="1400"
+            hspace="20">
+            <br><br>
+        <marquee><img id="banner" src="racao.png" width="700" height="500">
+        </marquee>
+
+        <!---imagem 01 ---->
+        <a href="Index.html" OnMouseOver="window.document['imagem1'].src = fotoum.src"
+            OnMouseOut="window.document['imagem1'].src = fotoumsombra.src">
+            <img src="b3 sombra.png" border=0 name="imagem1" width='150px' height='150px'></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <!---imagem 02 ---->
+        <a href="Pagina do Gato.html" OnMouseOver="window.document['imagem2'].src = fotodois.src"
+            OnMouseOut="window.document['imagem2'].src = fotodoissombra.src">
+            <img src="b1 sombra.png" border=0 name="imagem2" width='150px' height='150px'></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <!---imagem 03 ---->
+        <a href="Pagina do Cachorro.html" OnMouseOver="window.document['imagem3'].src = fototres.src"
+            OnMouseOut="window.document['imagem3'].src = fototressombra.src">
+            <img src="b2 sombra.png" border=0 name="imagem3" width='150px' height='150px'></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <!---imagem 04 ---->
+        <a href="Adoção.html" OnMouseOver="window.document['imagem4'].src = fotoquatro.src"
+            OnMouseOut="window.document['imagem4'].src = fotoquatrosombra.src">
+            <img src="adote sombra.png" border=0 name="imagem4" width='150px' height='150px'></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </CENTER>
+
+    <center>
+        <table>
+            <thead>
+                <tr>
+                    <font size="5" color="brown" size=9 font="arial">
+                        <p>
+                        <H1>Ração</H1>
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html"><IMG SRC="gatoraçao1.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="gatoraçao2.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="260" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="gatoraçao3.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="gatoraçao4.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="sachecat1.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>
+                        <H2>Ração Special Cat <br> Prime para Gatos Adultos <br>de Raças Médias <br>
+                            <font size="6" color="red">R$ 32,00
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Ração Premium Especial <br>Origens 1Kg Gatos Adultos <br> de Raças Pequenas<br>
+                            <font size="6" color="red">R$ 40,99
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Ração Premium Cat<br> para Gatos Adultos <br> 1Kg Sabor Salmão <br>
+                            <font size="6" color="red">R$ 35,99
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Ração Gran Plus <br>para Gatos Filhotes <br> 1Kg Sabor Arroz e Frango<br>
+                            <font size="6" color="red">R$ 198,99
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Sache Whiskas Para Gatos <br>Sabor Frango 85g <br>
+                            <font size="6" color="red">R$ 7,99
+                        </H2>
+                        </font>
+                    </td>
+
+
+                </tr>
+            </tbody>
+        </table>
+    </center>
+
+    <center>
+        <table>
+            <thead>
+                <tr>
+                    <font size="5" color="brown" size=9 font="arial">
+                        <p>
+                        <H1>Remédios</H1>
+                        </p>
+                    </font>
+
+                    <td><a href="Compra realizada.html"><IMG SRC="remedio7.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="remedio2.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="remedio3.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="remedio5.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="remedio6.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>
+                        <H2>Antipulgas Advocate Para<br> Gatos até 8Kg com 0,8ml<br>
+                            <font size="6" color="red">R$ 7,99
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Antipulgas Hectopar Spot 4ml <br>Gatos de mais de 1 Kg á 4kg <br>
+                            <font size="6" color="red">R$ 9,00
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Bravecto Para Gatos Transdermal <br>Anti Pulgas E Carrapatos<br> 1,2Kg A 2,8kg<br>
+                            <font size="6" color="red">R$ 15,99
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Vermífugo Bayer Drontal<br> para Gatos de até<br> 4kg - 4 Comprimidos<br>
+                            <font size="6" color="red">R$ 25,50
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Vermífugo Milbemax para Gatos<br> 16/40mg<br>
+                            <font size="6" color="red">R$ 30,45
+                        </H2>
+                        </font>
+                    </td>
+
+                </tr>
+
+
+            </tbody>
+
+        </table>
+    </center>
+
+    <center>
+        <table>
+            <thead>
+                <tr>
+                    <font size="5" color="brown" size=9 font="arial">
+                        <p>
+                        <H1>Higiêne e Limpeza </H1>
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html"><IMG SRC="gatocaixa1.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="gatoproduto1.jpg" alt="image description"
+                                ALIGN="midlle" HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="gatoareia1.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="gatoshampoo.jpg" alt="image description"
+                                ALIGN="midlle" HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="gatopente.jpeg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <H2>Caixa De Areia Para Gatos<br> Banheiro Sanitário <br>
+                            <font size="6" color="red">R$ 39,80
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Neutralizador De Odores De<br> Gatos Elimina Cheiro <br> De Urina<br>
+                            <font size="6" color="red">R$ 17,45
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Catmais Sensitive Areia <br> Higiênica Limpeza e <br>Anti-Odor 4 kg<br>
+                            <font size="6" color="red">R$ 29,99
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Kit Cafuné Shampoo + <br>Condicionador <br>
+                            <font size="6" color="red">R$ 22,29
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Escova para Gatos Autolimpantes <br>Removedor de Pelos Soltos <br>
+                            <font size="6" color="red">R$ 18,00
+                        </H2>
+                        </font>
+                    </td>
+            </tbody>
+        </table>
+    </center>
+    <center>
+        <table>
+            <thead>
+                <tr>
+                    <font size="5" color="brown" size=9 font="arial">
+                        <p>
+                        <H1>Seu Gato Vai Amar</H1>
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html"><IMG SRC="gatocama1.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="gatocolar1.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="gatotigela1.jpg" alt="image description"
+                                ALIGN="midlle" HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="gatoroupa.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="gatobrinquedo.jpg" alt="image description"
+                                ALIGN="midlle" HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <H2>Caminha Rosa Fofa com <br>Formato de Caxinha de Leite <br>
+                            <font size="6" color="red">R$ 200,80
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Coleira Fofa Personaliza <br>com Nome e Endereço <br>
+                            <font size="6" color="red">R$ 10,30
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Tigela de Cerâmica <br>Raçao e Àgua <br>
+                            <font size="6" color="red">R$ 54,00
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Vestido Azul Florido <br>Tamanho Médio<br>
+                            <font size="6" color="red">R$ 16,90
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Kit 4 Ratinhos de Brinquedos<br>
+                            <font size="6" color="red">R$ 18,00
+                        </H2>
+                        </font>
+                    </td>
+            </tbody>
+        </table>
+    </center>
+
+</html>

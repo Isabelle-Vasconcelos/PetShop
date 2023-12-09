@@ -1,0 +1,352 @@
+<!doctype html>
+<HTML>
+
+<HEAD>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="logotipo dog e cat.jpg" type="image/x-icon">
+    <TITLE>Pagina Inicial</TITLE>
+
+    <script type="text/javascript">
+
+        alert("Clique em cima de cada item para realizar sua compra 🚚");
+
+        var x = 0;
+        var imagem = new Array();
+        imagem[0] = "racao.png";
+        imagem[1] = "Img2.png";
+        imagem[2] = "Img3.png";
+
+        function mudar_banner() {
+            document.getElementById("banner").src = imagem[x];
+            x++;
+            if (x == 3) { //aqui compara x com a quantidade total de imagens que tem
+                x = 0;
+            }
+        }
+        setInterval('mudar_banner()', 2000);
+
+        fotoum = new Image()
+        fotoum.src = "b3.png"
+        fotoumsombra = new Image()
+        fotoumsombra.src = "b3 sombra.png "
+
+        fotodois = new Image()
+        fotodois.src = "b1.png"
+        fotodoissombra = new Image()
+        fotodoissombra.src = "b1 sombra.png"
+
+        fototres = new Image()
+        fototres.src = "b2.png"
+        fototressombra = new Image()
+        fototressombra.src = "b2 sombra.png"
+
+        fotoquatro = new Image()
+        fotoquatro.src = "adote.png"
+        fotoquatrosombra = new Image()
+        fotoquatrosombra.src = "adote sombra.png"
+    </script>
+</HEAD>
+
+<body BGCOLOR="#5CE1E6">
+
+    <CENTER>
+        <IMG SRC="logotipo dog e cat.jpg" ALIGN="CENTER" alt="Image" HEIGHT="700" WIDTH="1400" hspace="20">
+        <marquee><img id="banner" src="racao.png" width="500" vspace="30" height="300"></marquee>
+
+        
+        <!---imagem 01 ---->
+
+        <a href="Index.html" OnMouseOver="window.document['imagem1'].src = fotoum.src"
+            OnMouseOut="window.document['imagem1'].src = fotoumsombra.src">
+            <img src="b3 sombra.png" border=0 name="imagem1" width='150px' height='150px'></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <!---imagem 02 ---->
+
+        <a href="Pagina do Gato.html" OnMouseOver="window.document['imagem2'].src = fotodois.src"
+            OnMouseOut="window.document['imagem2'].src = fotodoissombra.src">
+            <img src="b1 sombra.png" border=0 name="imagem2" width='150px' height='150px'></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <!---imagem 03 ---->
+
+        <a href="Pagina do Cachorro.html" OnMouseOver="window.document['imagem3'].src = fototres.src"
+            OnMouseOut="window.document['imagem3'].src = fototressombra.src">
+            <img src="b2 sombra.png" border=0 name="imagem3" width='150px' height='150px'></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <!---imagem 04 ---->
+
+        <a href="Adoção.html" OnMouseOver="window.document['imagem4'].src = fotoquatro.src"
+            OnMouseOut="window.document['imagem4'].src = fotoquatrosombra.src">
+            <img src="adote sombra.png" border=0 name="imagem4" width='150px' height='150px'></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+    </CENTER>
+    <center>
+        <table>
+            <thead>
+
+                <tr>
+                    <br>
+                    <br>
+                    <font size="5" color="#CC0000" size=9 font="arial">
+
+                        <p>
+                        <H1>Recomendados</H1>
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html"><IMG SRC="dograçao1.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="caminha pet.jpg" alt="image description"
+                                ALIGN="midlle" HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="coleira3.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="tapete xixi.jpg" alt="image description"
+                                ALIGN="midlle" HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html"><IMG SRC="bolinhas.jpg" alt="image description" ALIGN="midlle"
+                                HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <H2>Ração Special Dog <br> Prime para Cães Adultos <br> de Raças Médias <br>
+                            <font size="6" color="#CC0000">R$ 198,99
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Cama Pet para Cães e Gatos <br>
+                            <font size="6" color="#CC0000">R$ 46,69
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Coleira para cachorros<br>resistente e personalizada<br> com nome e telefone<br>
+                            <font size="6" color="#CC0000">R$ 15,00
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Tapete Higiênico Pet Banheiro<br> Descartável 100 unidades <br>
+                            <font size="6" color="#CC0000">R$ 72,89
+                        </H2>
+                        </font>
+                    </td>
+                    <td>
+                        <H2>Kit 12 Bolinhas Tipo Cravinho<br> Mordedor para Cães e Gatos <br>
+                            <font size="6" color="#CC0000">R$ 15,10
+                        </H2>
+                        </font>
+                    </td>
+
+                </tr>
+
+
+            </tbody>
+
+        </table>
+    </center>
+
+</body>
+
+<center>
+    <table>
+        <thead>
+
+            <tr>
+                <br>
+                <br>
+                <font size="5" color="#CC0000" size=9 font="arial">
+
+                    <p>
+                    <H1>Saches</H1>
+                    </p>
+                </font>
+                <td><a href="Compra realizada.html"><IMG SRC="sachedog2.jpg" .jpg" alt="image description"
+                            ALIGN="midlle" HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                <td><a href="Compra realizada.html"><IMG SRC="sachedog1.jpg" alt="image description" ALIGN="midlle"
+                            HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                <td><a href="Compra realizada.html"><IMG SRC="sachecat1.jpg" alt="image description" ALIGN="midlle"
+                            HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                <td><a href="Compra realizada.html"><IMG SRC="sache2.jpg" alt="image description" ALIGN="midlle"
+                            HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                <td><a href="Compra realizada.html"><IMG SRC="sache3.jpg" alt="image description" ALIGN="midlle"
+                            HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+
+                <td>
+                    <H2>Sache Magnus Premium Sabor<br> Carne 85g<br>
+                        <font size="6" color="red">R$ 7,10
+                    </H2>
+                    </font>
+                </td>
+                <td>
+                    <H2>Sache Pedigree Sabor Carne<br> 100g<br>
+                        <font size="6" color="red">R$ 9,00
+                    </H2>
+                    </font>
+                </td>
+                <td>
+                    <H2>Sache Whiskas Sabor Frango<br> 85g <br>
+                        <font size="6" color="red">R$ 6,00
+                    </H2>
+                    </font>
+                </td>
+                <td>
+                    <H2>Sache Faro Sabor Carne ao<br> Molho 85g<br>
+                        <font size="6" color="red">R$ 5,99
+                    </H2>
+                    </font>
+                </td>
+                <td>
+                    <H2>Sache Papagatos em Lata Sabor<br> Carne e Legumes<br>
+                        <font size="6" color="red">R$ 13,26
+                    </H2>
+                    </font>
+                </td>
+
+            </tr>
+
+
+        </tbody>
+
+    </table>
+</center>
+
+</body>
+<center>
+    <table>
+        <thead>
+
+            <tr>
+                <br>
+                <br>
+                <font size="5" color="#CC0000" size=9 font="arial">
+
+                    <p>
+                    <H1>Novidades</H1>
+                    </p>
+                </font>
+                <td><a href="Compra realizada.html"><IMG SRC="dogmedidor.jpg" .jpg" alt="image description"
+                            ALIGN="midlle" HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                <td><a href="Compra realizada.html"><IMG SRC="dogtigela.jpg" alt="image description" ALIGN="midlle"
+                            HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                <td><a href="Compra realizada.html"><IMG SRC="pente.jpg" alt="image description" ALIGN="midlle"
+                            HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                <td><a href="Compra realizada.html"><IMG SRC="dogescada.jpg" alt="image description" ALIGN="midlle"
+                            HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                <td><a href="Compra realizada.html"><IMG SRC="petcortador.jpg" alt="image description" ALIGN="midlle"
+                            HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <H2>Medidor de Ração em<br> Gramas Automático<br>
+                        <font size="6" color="red">R$ 80,00
+                    </H2>
+                    </font>
+                </td>
+                <td>
+                    <H2>Armazenador de Água <br>e Ração<br>
+                        <font size="6" color="red">R$ 13,26
+                    </H2>
+                    </font>
+                </td>
+                <td>
+                    <H2>Pente Elétrico Removedor de <br>Pulgas e Carrapatos <br>
+                        <font size="6" color="red">R$ 38,50
+                    </H2>
+                    </font>
+                </td>
+                <td>
+                    <H2>Mini Escada Para Pet <br>
+                        <font size="6" color="red">R$ 29,99
+                    </H2>
+                    </font>
+                </td>
+                <td>
+                    <H2>Alicate Cortador de Unha <br>Para Pet<br>
+                        <font size="6" color="red">R$ 15,00
+                    </H2>
+                    </font>
+                </td>
+
+            </tr>
+
+
+        </tbody>
+
+    </table>
+</center>
+<center>
+    <table>
+        <thead>
+
+            <tr>
+                <br>
+                <br>
+                <font size="5" color="#CC0000" size=9 font="arial">
+                    <p>
+                    <H1>Roupinhas</H1>
+                    </p>
+                </font>
+                <td><a href="Compra realizada.html"><IMG SRC="roupa1.jpg" .jpg" alt="image description" ALIGN="midlle"
+                            HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                <td><a href="Compra realizada.html"><IMG SRC="roupa2.jpg" alt="image description" ALIGN="midlle"
+                            HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                <td><a href="Compra realizada.html"><IMG SRC="roupa3.jpg" alt="image description" ALIGN="midlle"
+                            HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                <td><a href="Compra realizada.html"><IMG SRC="roupa4.jpg" alt="image description" ALIGN="midlle"
+                            HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+                <td><a href="Compra realizada.html"><IMG SRC="roupa5.jpg" alt="image description" ALIGN="midlle"
+                            HEIGHT="290" WIDTH="290" vspace="10" hspace="20"></a></td>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+
+                <td>
+                    <H2>Roupinha Listrada Colorida<br>
+                        <font size="6" color="red">R$ 16,00
+                    </H2>
+                    </font>
+                </td>
+                <td>
+                    <H2>Vestidinho Verde Florido <br>
+                        <font size="6" color="red">R$ 22,50
+                    </H2>
+                    </font>
+                </td>
+                <td>
+                    <H2>Moletom Azul Pastel <br>
+                        <font size="6" color="red">R$ 29,00
+                    </H2>
+                    </font>
+                </td>
+                <td>
+                    <H2>Pijama Amarelo Estampa <br>
+                        <font size="6" color="red">R$ 15,00
+                    </H2>
+                    </font>
+                </td>
+                <td>
+                    <H2>Vestidinho Florido Vermelho<br> Vintage<br>
+                        <font size="6" color="red">R$ 45,80
+                    </H2>
+                    </font>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</center>
